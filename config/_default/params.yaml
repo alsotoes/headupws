@@ -16,9 +16,6 @@ logo:
   logoText: "headup.ws"
   logoCursorColor: "#ffffff"
 social:
-  - name: "website"
-    url: "https://headup.ws"
-    icon: fa-solid fa-house
   - name: "blog"
     url: "https://blog.headup.ws"
     icon: fa-solid fa-blog
@@ -28,10 +25,6 @@ social:
     url: "https://youtube.com/@alsotoes"
   - name: "x-twitter"
     url: "https://x.com/alsotoes"
-    #- name: "instagram"
-    #url: "https://www.instagram.com/alsotoes/"
-    #- name: "twitch"
-    #url: "https://twitch.tv/alsotoes/"
   - name: "Buy me a coffee"
     url: "https://www.buymeacoffee.com/alvaro.soto/"
     icon: fa-solid fa-coffee
