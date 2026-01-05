@@ -9,17 +9,15 @@
         {{ if eq .Section "apps" }}
             {{/* Custom layout for the 'apps' section */}}
             <div class="app-list" style="margin-top: 2rem;">
-                {{ range where .Site.Pages "Type" "apps" }}
-                <a href="{{ .Permalink }}" class="app-card" style="display: block; text-decoration: none; margin-bottom: 1.5rem; color: inherit;">
-                    {{ $imagePath := .Params.image }}
-                    {{ with $imagePath }}
-                        <img src="/plantcare.png" alt="App logo" class="app-logo" style="width: 80px; height: 80px; border-radius: 10px; margin-right: 1rem; vertical-align: middle;">
+                {{ range (where .Site.RegularPages "Type" "apps") }}
+                    {{ $page := . }}
+                    {{ with .Params.image }}
+                        <a href="{{ $page.Permalink }}" class="app-card" style="display: inline-block;">
+                            <img src="{{ . | absURL }}" alt="{{ $page.Title }} logo" class="app-logo" style="width: 80px; height: 80px; border-radius: 10px;">
+                        </a>
                     {{ end }}
-                </a>
                 {{ end }}
             </div>
-
-
         {{ else }}
             {{/* Default theme layout for all other sections */}}
             {{ $paginator := .Paginate .Data.Pages }}
