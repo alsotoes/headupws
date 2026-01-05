@@ -21,7 +21,7 @@ This page serves as the official homepage for the **Plant Care App**. Our applic
 
 To offer features like saving your plant history and providing a consistent experience across devices, the Plant Care App uses **Google Sign-In** for secure user authentication. We are committed to transparency regarding your data. We only request essential profile information (like your email address) to create and manage your account within the app. Your plant data and personal information are handled with the utmost care.
 
-For a comprehensive understanding of our data practices, please refer to our <a href="/apps/plantcare/privacy-policy/"><strong>Privacy Policy</strong></a> and <a href="/apps/plantcare/terms-of-service/"><strong>Terms of Service</strong></a>. This information is available to all users without requiring a login to the app.
+For a comprehensive understanding of our data practices, please refer to our <a href="/plantcare-privacy-policy/"><strong>Privacy Policy</strong></a> and <a href="/plantcare-terms-of-service/"><strong>Terms of Service</strong></a>. This information is available to all users without requiring a login to the app.
 
 ---
 
@@ -59,6 +59,6 @@ Start your journey to healthier, happier plants today! Join the Plant Care App c
 
 ---
 
-[Privacy Policy](/apps/plantcare/privacy-policy/)
+[Privacy Policy](/plantcare-privacy-policy/)
 
-[Terms of Service](/apps/plantcare/terms-of-service/)
+[Terms of Service](/plantcare-terms-of-service/)
