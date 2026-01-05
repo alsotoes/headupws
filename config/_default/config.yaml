@@ -1,4 +1,4 @@
-baseURL: 'http://localhost:1313/'
+baseURL: 'https://headup.ws/'
 languageCode: 'en-us'
 theme: "hello-4s3ti"
 title: 'Headup | Just keep pushing forward...'
