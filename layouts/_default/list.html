@@ -21,19 +21,13 @@
 
             {{ with site.GetPage "/privacy-policy" }}
                 <div class="privacy-policy-section" style="margin-top: 4rem;">
-                    <h2>{{ .Title }}</h2>
-                    <div class="content">
-                        {{ .Content }}
-                    </div>
+                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                 </div>
             {{ end }}
 
             {{ with site.GetPage "/terms-of-service" }}
                 <div class="terms-of-service-section" style="margin-top: 2rem;">
-                    <h2>{{ .Title }}</h2>
-                    <div class="content">
-                        {{ .Content }}
-                    </div>
+                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                 </div>
             {{ end }}
         {{ else }}
