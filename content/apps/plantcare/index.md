@@ -9,23 +9,13 @@ image: /plantcare.png
 
 # Plantcare
 
+**The Plantcare mobile app helps you care for your plants by analyzing images.** Simply take a photo of a plant, and our app provides personalized care advice and diagnostics.
+
+To offer features like saving your plant history, the app uses **Google Sign-In** for secure user authentication. We only request basic profile information to create and manage your account. For full details on our data practices, please review our <a href="/plantcare-privacy-policy/"><strong>Privacy Policy</strong></a> and <a href="/plantcare-terms-of-service/"><strong>Terms of Service</strong></a>.
+
+---
+
 ## Nurture Your Greens with AI Guidance
-
-The Plant Care App is a revolutionary Flutter application designed to empower plant enthusiasts of all levels. Leveraging the cutting-edge capabilities of Google's Gemini API, our app provides personalized care advice and diagnostics, transforming the way you interact with your leafy companions.
-
----
-
-### Important: Google Cloud Branding Verification
-
-This page serves as the official homepage for the **Plant Care App**. Our application's primary purpose is to assist you in maintaining healthy plants by providing AI-driven analysis and personalized care recommendations based on image input.
-
-To offer features like saving your plant history and providing a consistent experience across devices, the Plant Care App uses **Google Sign-In** for secure user authentication. We are committed to transparency regarding your data. We only request essential profile information (like your email address) to create and manage your account within the app. Your plant data and personal information are handled with the utmost care.
-
-For a comprehensive understanding of our data practices, please refer to our <a href="/plantcare-privacy-policy/"><strong>Privacy Policy</strong></a> and <a href="/plantcare-terms-of-service/"><strong>Terms of Service</strong></a>. This information is available to all users without requiring a login to the app.
-
----
-
-## Key Features
 
 *   **Effortless Photo Analysis:** Simply snap a picture of your plant or select one from your gallery. Our AI will analyze it to understand its needs.
 *   **Contextual Input for Precision:** Enhance the AI's understanding by providing crucial details such as your plant's typical sun exposure and watering frequency using an intuitive 0-30 days slider.
