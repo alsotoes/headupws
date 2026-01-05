@@ -1,0 +1,68 @@
+{{ define "main" }}
+    <main class="posts">
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        {{ if eq .Section "apps" }}
+            {{/* Custom layout for the 'apps' section */}}
+            <div class="app-list" style="margin-top: 2rem;">
+                {{ range where .Site.RegularPages "Section" "apps" }}
+                <a href="{{ .Permalink }}" class="app-card" style="display: block; text-decoration: none; margin-bottom: 1.5rem; color: inherit;">
+                    {{ $imagePath := .Params.image }}
+                    {{ with $imagePath }}
+                        <img src="{{ . | relURL }}" alt="{{ $.Title }} logo" class="app-logo" style="width: 80px; height: 80px; border-radius: 10px; margin-right: 1rem; vertical-align: middle;">
+                    {{ end }}
+                    <h2 class="app-title" style="display: inline-block; vertical-align: middle; margin: 0;"></h2>
+                </a>
+                {{ end }}
+            </div>
+
+            {{ with site.GetPage "/privacy-policy" }}
+                <div class="privacy-policy-section" style="margin-top: 4rem;">
+                    <h2>{{ .Title }}</h2>
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
+                </div>
+            {{ end }}
+
+            {{ with site.GetPage "/terms-of-service" }}
+                <div class="terms-of-service-section" style="margin-top: 2rem;">
+                    <h2>{{ .Title }}</h2>
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
+                </div>
+            {{ end }}
+        {{ else }}
+            {{/* Default theme layout for all other sections */}}
+            {{ $paginator := .Paginate .Data.Pages }}
+            {{ range $paginator.Pages.GroupByDate "2006" }}
+                <div class="posts-group">
+                    <div class="post-year">{{ .Key }}</div>
+
+                    <ul class="posts-list">
+                        {{ range .Pages }}
+                            <li class="post-item">
+                                <a href="{{.Permalink}}">
+                                    <span class="post-title">{{.Title}}</span>
+                                    <span class="post-day">
+                                        {{ if .Site.Params.dateformShort }}
+                                            {{ .Date.Format .Site.Params.dateformShort }}
+                                        {{ else }}
+                                            {{ .Date.Format "Jan 2"}}
+                                        {{ end }}
+                                    </span>
+                                </a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+            {{ partial "pagination-list.html" . }}
+        {{ end }}
+    </main>
+{{ end }}
