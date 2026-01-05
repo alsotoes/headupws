@@ -9,7 +9,7 @@
         {{ if eq .Section "apps" }}
             {{/* Custom layout for the 'apps' section */}}
             <div class="app-list" style="margin-top: 2rem;">
-                {{ range where .Site.RegularPages "Section" "apps" }}
+                {{ range where .Site.Pages "Type" "apps" }}
                 <a href="{{ .Permalink }}" class="app-card" style="display: block; text-decoration: none; margin-bottom: 1.5rem; color: inherit;">
                     {{ $imagePath := .Params.image }}
                     {{ with $imagePath }}
