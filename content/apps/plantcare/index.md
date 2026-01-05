@@ -1,5 +1,5 @@
 ---
-title: "Plantcare App"
+title: "Plantcare"
 date: 2024-07-26T10:00:00Z
 draft: false
 app:
@@ -7,7 +7,7 @@ app:
 image: /plantcare.png
 ---
 
-# Plant Care App: Your Personal Plant Doctor
+# Plantcare
 
 ## Nurture Your Greens with AI Guidance
 
