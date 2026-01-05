@@ -2,7 +2,7 @@
 title: "Plantcare App"
 date: 2024-07-26T10:00:00Z
 draft: false
-apps:
+app:
 - "plantcare"
 image: /static/plantcare.png
 ---
@@ -44,3 +44,9 @@ To ensure a high-quality experience for all users and prevent misuse, our Premiu
 The Plant Care App is built with cost-efficiency and performance in mind. We utilize Google Gemini 2.0 Flash for its exceptional balance of power and affordability. Our infrastructure leverages robust cloud services like Firebase/Supabase for hosting and Firebase Blaze Plan for serverless functions, ensuring scalability and reliability while keeping operational costs low.
 
 Start your journey to healthier, happier plants today! Join the Plant Care App community and let AI transform your gardening experience.
+
+---
+
+[Privacy Policy](/privacy-policy/)
+
+[Terms of Service](/terms-of-service/)
