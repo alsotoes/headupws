@@ -9,13 +9,24 @@ image: /plantcare.png
 
 # Plantcare
 
-**The Plantcare mobile app helps you care for your plants by analyzing images.** Simply take a photo of a plant, and our app provides personalized care advice and diagnostics.
+<div style="padding: 1rem; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 2rem;">
 
-To offer features like saving your plant history, the app uses **Google Sign-In** for secure user authentication. We only request basic profile information to create and manage your account. For full details on our data practices, please review our <a href="/plantcare-privacy-policy/"><strong>Privacy Policy</strong></a> and <a href="/plantcare-terms-of-service/"><strong>Terms of Service</strong></a>.
+**Application Overview for Verification**
+
+*   **App Name:** Plantcare
+*   **Purpose:** The **Plantcare** mobile app helps users care for their plants by analyzing images. Users take a photo of a plant, and our application provides personalized care advice and diagnostics.
+*   **Data Usage:** To offer features like saving a user's plant history, **Plantcare** uses Google Sign-In for secure user authentication. This requires access to basic profile information (email address) to create and manage the user's account.
+*   **Privacy Policy:** For a comprehensive understanding of our data practices, please review our <a href="/plantcare-privacy-policy/"><strong>Privacy Policy</strong></a>.
+
+</div>
 
 ---
 
 ## Nurture Your Greens with AI Guidance
+
+**Plantcare** is a revolutionary Flutter application designed to empower plant enthusiasts of all levels. Leveraging the cutting-edge capabilities of Google's Gemini API, our app provides personalized care advice and diagnostics, transforming the way you interact with your leafy companions.
+
+## Key Features
 
 *   **Effortless Photo Analysis:** Simply snap a picture of your plant or select one from your gallery. Our AI will analyze it to understand its needs.
 *   **Contextual Input for Precision:** Enhance the AI's understanding by providing crucial details such as your plant's typical sun exposure and watering frequency using an intuitive 0-30 days slider.
@@ -43,9 +54,9 @@ To ensure a high-quality experience for all users and prevent misuse, our Premiu
 
 ## Behind the Scenes: A Peek at Our Technology
 
-The Plant Care App is built with cost-efficiency and performance in mind. We utilize Google Gemini 2.0 Flash for its exceptional balance of power and affordability. Our infrastructure leverages robust cloud services like Firebase/Supabase for hosting and Firebase Blaze Plan for serverless functions, ensuring scalability and reliability while keeping operational costs low.
+**Plantcare** is built with cost-efficiency and performance in mind. We utilize Google Gemini 2.0 Flash for its exceptional balance of power and affordability. Our infrastructure leverages robust cloud services like Firebase/Supabase for hosting and Firebase Blaze Plan for serverless functions, ensuring scalability and reliability while keeping operational costs low.
 
-Start your journey to healthier, happier plants today! Join the Plant Care App community and let AI transform your gardening experience.
+Start your journey to healthier, happier plants today! Join the **Plantcare** community and let AI transform your gardening experience.
 
 ---
 
