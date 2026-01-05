@@ -4,7 +4,7 @@ date: 2024-07-26T10:00:00Z
 draft: false
 app:
 - "plantcare"
-image: /static/plantcare.png
+image: /plantcare.png
 ---
 
 # Plant Care App: Your Personal Plant Doctor
