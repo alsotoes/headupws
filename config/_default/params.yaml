@@ -19,6 +19,9 @@ social:
   - name: "blog"
     url: "https://blog.headup.ws"
     icon: fa-solid fa-blog
+  - name: "apps"
+    url: "/apps"
+    icon: "fa-solid fa-star"
   - name: "github"
     url: "https://github.com/alsotoes"
   - name: "youtube"
