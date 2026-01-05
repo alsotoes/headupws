@@ -13,9 +13,8 @@
                 <a href="{{ .Permalink }}" class="app-card" style="display: block; text-decoration: none; margin-bottom: 1.5rem; color: inherit;">
                     {{ $imagePath := .Params.image }}
                     {{ with $imagePath }}
-                        <img src="{{ . | relURL }}" alt="{{ $.Title }} logo" class="app-logo" style="width: 80px; height: 80px; border-radius: 10px; margin-right: 1rem; vertical-align: middle;">
+                        <img src="{{ . | relURL }}" alt="App logo" class="app-logo" style="width: 80px; height: 80px; border-radius: 10px; margin-right: 1rem; vertical-align: middle;">
                     {{ end }}
-                    <h2 class="app-title" style="display: inline-block; vertical-align: middle; margin: 0;"></h2>
                 </a>
                 {{ end }}
             </div>
