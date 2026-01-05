@@ -5,3 +5,16 @@ title: 'Headup | Just keep pushing forward...'
 copyright: "All Rights Reserved"
 IsMultiLingual: false
 defaultContentLanguage: en
+
+taxonomies:
+  category: categories
+  tag: tags
+  app: apps
+
+
+menu:
+  main:
+    - identifier: privacy-policy
+      name: Privacy Policy
+      url: /privacy-policy/
+      weight: 10
