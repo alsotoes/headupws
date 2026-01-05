@@ -22,3 +22,8 @@ menu:
       name: Terms of Service
       url: /terms-of-service/
       weight: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
