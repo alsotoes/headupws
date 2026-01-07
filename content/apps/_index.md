@@ -1,5 +1,5 @@
 ---
-title: "Our Apps"
+title: "My Apps"
 slug: "apps"
 layout: "apps"
 draft: false
