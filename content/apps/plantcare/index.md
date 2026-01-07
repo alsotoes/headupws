@@ -7,8 +7,6 @@ app:
 image: /plantcare.png
 ---
 
-# Plantcare
-
 <div style="padding: 1rem; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 2rem;">
 
 **Application Overview for Verification**
@@ -17,6 +15,7 @@ image: /plantcare.png
 *   **Purpose:** The **Plantcare** mobile app helps users care for their plants by analyzing images. Users take a photo of a plant, and our application provides personalized care advice and diagnostics.
 *   **Data Usage:** To offer features like saving a user's plant history, **Plantcare** uses Google Sign-In for secure user authentication. This requires access to basic profile information (email address) to create and manage the user's account.
 *   **Privacy Policy:** For a comprehensive understanding of our data practices, please review our <a href="/plantcare-privacy-policy/"><strong>Privacy Policy</strong></a>.
+*   **Terms of Service:** By using our application, you agree to our <a href="/plantcare-terms-of-service/"><strong>Terms of Service</strong></a>.
 
 </div>
 
@@ -58,8 +57,3 @@ To ensure a high-quality experience for all users and prevent misuse, our Premiu
 
 Start your journey to healthier, happier plants today! Join the **Plantcare** community and let AI transform your gardening experience.
 
----
-
-[Privacy Policy](/plantcare-privacy-policy/)
-
-[Terms of Service](/plantcare-terms-of-service/)
