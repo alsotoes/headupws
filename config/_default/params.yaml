@@ -5,7 +5,6 @@ EnableGlobalLanguageMenu: false
 backgroundImage: "/static/machinetop_background.jpg"
 backgroundEffects: false
 showPosts: false
-tags: false
 ReadMoreText: false
 fontAwesome: 
   all: true
